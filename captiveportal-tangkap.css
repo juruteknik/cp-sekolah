@@ -1,0 +1,148 @@
+body {
+    font-family: Verdana;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#atas {
+    padding:10px;
+    height: auto;
+    text-align: center;
+}
+
+.bungkus {
+    margin: 0 auto;
+    clear:both;
+    display: inline-block;
+}
+
+.butang {
+    border:none;
+    display:inline-block;
+    outline:0;
+    padding:6px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    color: whitesmoke;
+    background-color: #2da3c9;
+    text-align:center;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: medium;
+    cursor:pointer;
+    white-space:nowrap
+}
+
+#atas h1{
+    text-shadow: #dcdcdc 2px 2px 2px;
+}
+
+#ralat {
+    margin: auto;
+    clear: both;
+    text-align: center;
+}
+
+#ralat p {
+    color: red;
+    font-weight: bold;
+}
+
+.bungkus h1{
+    font-size: x-large;
+}
+
+#tengah {
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    background-color: #0510ad;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#kiri {
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    background-color: #05ad29;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+}
+
+#kanan {
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    background-color: #fce302;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#nota {
+    margin: auto;
+    clear: both;
+    text-align: center;
+}
+
+#nota p {
+    color: red;
+    font-weight: bold;
+    text-shadow: black 1px 1px 1px;
+}
+
+#kuasa {
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #kanan {
+        float: none;
+        margin-right:0;
+        width: 300px;
+        border:0;
+        border-right: 2px solid #000;
+        border-left: 2px solid #000;
+        border-bottom: 2px solid #000;
+    }
+
+    #kiri {
+        float: none;
+        margin-left:0;
+        width:300px;
+        border:0;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        border-right: 2px solid #000;
+        border-left: 2px solid #000;
+    }
+
+    #tengah {
+        float: none;
+        margin-left:0;
+        width:300px;
+        border:0;
+        border-right: 2px solid #000;
+        border-left: 2px solid #000;
+        border-bottom:2px solid #000;
+    }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Akses Internet | SK Bandar Batu Pahat</title>
+    <link href="captiveportal-tangkap.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <div id="atas">
+        <img src="captiveportal-logo.png" alt="JBA0022">
+        <img src="captiveportal-ts.png" alt="TS25">
+        <h1>AKSES INTERNET</h1>
+        <h1>SK BANDAR BATU PAHAT</h1>
+    </div>
+    <div class="bungkus">
+        <div id="kiri">
+            <form method="post" action="$PORTAL_ACTION$">
+                <h1>GURU</h1>
+                <br>Sila Masukkan ID Guru<br>
+                <input name="auth_user" type="text" placeholder="ID Guru" size="16">@jba0022<br>
+                <input name="auth_pass" type="hidden" value="password">
+                <input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
+                <input name="zone" type="hidden" value="$PORTAL_ZONE$">
+                <input name="accept" type="submit" class="butang" value="MASUK">
+            </form>
+        </div>
+
+        <div id="tengah">
+            <form method="post" action="$PORTAL_ACTION$">
+                <h1>PELAWAT/MURID</h1>
+                <br>Sila Masukkan Katalaluan<br>
+                <input name="auth_user" type="text" placeholder="Akses PIN" size="23"><br>
+                <input name="auth_pass" type="hidden" value="murid">
+                <input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
+                <input name="zone" type="hidden" value="$PORTAL_ZONE$">
+                <input name="accept" type="submit" class="butang" value="MASUK">
+            </form>
+        </div>
+
+        <div id="kanan">
+            <form method="post" action="$PORTAL_ACTION$">
+                <h1>STAF</h1><br>
+                <input name="auth_user" type="text" placeholder="ID Staf" size="23"><br>
+                <input name="auth_pass" type="password" placeholder="Kata Laluan" size="23"><br>
+                <input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
+                <input name="zone" type="hidden" value="$PORTAL_ZONE$">
+                <input name="accept" type="submit" class="butang" value="MASUK">
+            </form>
+        </div>
+
+    </div>
+    <br>
+    <div id="nota">
+        <br>
+        <p>- Telefon 07-4323227 untuk mendapatkan kata laluan -</p>
+        <br>
+        <br>
+        = dikuasakan oleh =
+        <div id="kuasa">
+            <img src="captiveportal-freebsd.png" alt="FreeBSD">
+            <img src="captiveportal-pfsense.png" alt="pFsense deRia">
+        </div>
+    </div>
+</body>
+</html>
